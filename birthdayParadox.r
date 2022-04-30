@@ -27,3 +27,5 @@ p = birthday(n_individuals, n_time)
 p =round(p, 3)*100
 
 print(paste0(p, "%"))
+
+#source: https://www.r-bloggers.com/2019/03/r-birthday-problem/#:~:text=The%20birthday%20problem%20asks%20how,pair%20with%20the%20same%20birthday.
