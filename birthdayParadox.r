@@ -1,7 +1,8 @@
 # Libraries
 
 # Function that returns the probability of two individuals sharing birthdays, given a number of individuals and days
-#
+# choose(k, n) calculates the number of sets with n elements than can be chosen from a set with k elements, that is
+#the binomial coefficient
 birthdayParadox <- function(n_individuals, n_time) {
  return(p <- 1 - choose(n_time, n_time - n_individuals) * factorial(n_individuals) / n_time ^ n_individuals)
 }
