@@ -1,12 +1,17 @@
-def probOfSameBirthday():
+
+def same():
     value = input("Please enter an integer:\n")
  
     value = int(value)
 
-    q = 1
+    aux = 1
     for i in range(1, value):
         probability = i / 366
-        q *= (1 - probability)
-    p = 1 - q
-    print (100*round(p, 2))
-    
+        aux *= (1 - probability)
+    prob = 1 - aux
+    print (100*round(prob, 2))
+
+
+same()
+
+#source: https://www.codespeedy.com/birthday-paradox-program-in-python/
