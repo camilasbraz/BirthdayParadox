@@ -16,4 +16,4 @@ The final math would be 1 - 365!/(345! * 365^20), which is 41,1%
 Wolfram has a tool that easily allows you to calculate this probability: https://www.wolframalpha.com/input?i=birthday+problem+calculator
 
 ### Implementation in R, Julia and Python
-This can be easily implement in many programming languages. To practice a bit, I implemented in R, Julia and python! The codes are avilable in this repository, each one of them solves the ptoblem in a differnt way. R and python calculates the probability and Julia simulates the situations to get the probabilities.
+This can be easily implement in many programming languages. To practice a bit, I implemented in R, Julia and python! The codes are avilable in this repository, each one of them solves the problem in a differnt way. R and python calculates the probability and Julia simulates the situations to get the probabilities.
